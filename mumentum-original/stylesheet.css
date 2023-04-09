@@ -1,6 +1,4 @@
-/* Generic */
-
-:root {
+/* :root {
   --primaryred: #cd8c90;
   --primaryblue: #8da9b0;
   --primaryorange: #e4c39f;
@@ -24,6 +22,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 p {
   font-size: 20px;
+} */
+
+.third-footer p {
+  color: white;
 }
 
 .row {
@@ -33,42 +35,6 @@ p {
 .container-fluid {
   padding: 0;
 }
-
-.padding-10 {
-  padding: 10px;
-}
-
-button:focus,
-input:focus,
-a:focus {
-  border-color: rgba(126, 239, 104, 0)!important;
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.075) inset, 0 0 0 rgba(126, 239, 104, 0.6)!important;
-  outline: 0 none!important;
-}
-
-.fa-right {
-  margin-right: 10px;
-}
-
-/* Buttons */
-
-.btn-mumentum-red {
-  margin-top: 20px;
-  color: var(--primarypink);
-  background-color: var(--primaryred);
-  padding: 5px 50px 5px 50px;
-  border: var(--primaryred) solid 2px;
-}
-
-.btn-mumentum-red:hover {
-  margin-top: 20px;
-  color: var(--primaryorange);
-  background-color: var(--primaryred);
-  padding: 5px 50px 5px 50px;
-  border: var(--primaryorange) solid 2px;
-}
-
-/* Header */
 
 #logoImg {
   max-width: 5%;
@@ -97,7 +63,7 @@ a:focus {
 }
 
 #heading-nav {
-  background-color: var(--primaryred);
+  background-color: var(--primarypink);
   color: #313131;
 }
 
@@ -139,78 +105,30 @@ a:focus {
   text-decoration: none;
 }
 
-/* FOOTER */
 
-
-#footer {
-  background-color: var(--primaryblue);
-  padding: 10px;
-  color: white;
-}
-
-#footer span {
-  margin-right: 30px;
-}
-
-#footer a {
-  /* padding-right: 30px; */
-  color: white;
-  text-decoration: none;
-}
-
-#footer a:hover {
-  text-decoration: underline;
-  color: white;
-}
-
-#footer span a {
-  /* padding-right: 30px; */
-  color: white;
-  text-decoration: none;
-}
-
-#footer span a:hover {
-  text-decoration: underline;
-  color: white;
-}
-
-/* Index - header panel */
+/* TODO do heading nav here */
 
 #first-row {
   padding: 30px 0 0 0;
   background-color: var(--primaryred);
 }
 
-#container-aboutus {
-  position: relative;
-  text-align: center;
+#first-img-left {
+  max-width: 100%
 }
 
-#aboutusimg {
-  max-width: 100%;
+#first-column-right {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 20px 0 20px 0;
 }
 
-#centered {
-  position: absolute;
-  font-size: 60px;
-  color: #3f3d42;
-  background: rgba(252,241,243,0.5);
-  width: 100%;
-  height: 30%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: auto;
-  display: flex;
-  font-family: 'Edu NSW ACT Foundation', cursive;
-  align-items:center;
-  justify-content:center;
-  border-radius: 3px;
+#second-img-top {
+  width: 10%
 }
-
-/* Index - Brief About */
 
 #second-row {
+  /* margin-top: -40px; */
   padding: 80px 0 50px 0;
   background-color: var(--primarypink);
 }
@@ -220,41 +138,16 @@ a:focus {
 }
 
 #second-row h2 {
+  /* font-family: 'Edu NSW ACT Foundation', cursive; */
   font-size: 30px;
 }
-
-/* Index - Card Panel  */
 
 #third-row {
   padding: 30px 0 30px 0;
 }
 
-.third-footer p {
-  color: white;
-}
-
-.learnmore {
-  color: var(--primaryorange);
-  text-decoration: none;
-}
-
-.learnmore:hover {
-  color: var(--primaryorange);
-  text-decoration: underline;
-}
-
-#first-column-right {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 20px 0 20px 0;
-}
-
-#calendar-card {
-  width: 100%;
-}
-
-#second-card {
-  height: 100%;
+.padding-10 {
+  padding: 10px;
 }
 
 .card {
@@ -272,13 +165,10 @@ a:focus {
 }
 
 .card-header {
-  background-color: rgb(185,141,130);
-  background: linear-gradient(180deg, rgba(185,141,130,1) 70%, rgba(185,141,130,0) 100%);
+  background-color: var(--secondarybrown);
   color: var(--primarypink);
-  padding: 20px 0 40px 0;
+  padding: 20px 0 20px 0;
   border-color: var(--secondarybrown);
-  border-bottom: 0px;
-  z-index: 10;
 }
 
 .card-footer {
@@ -287,15 +177,17 @@ a:focus {
   border-top: none;
   z-index: 10;
   background: rgb(185,141,130);
-  background: linear-gradient(0deg, rgba(185,141,130,1) 90%, rgba(185,141,130,0) 100%);
+  background: linear-gradient(0deg, rgba(185,141,130,1) 70%, rgba(185,141,130,0) 100%);
   color: var(--primarypink)!important;
 }
 
-.carousel, #second-card .card-body {
-  margin-top: -30px;
+#calendar-card {
+  width: 100%;
 }
 
-/* Index - Donate */
+#second-card {
+  height: 100%;
+}
 
 #forth-row {
   padding: 20px 0 20px 0;
@@ -304,15 +196,6 @@ a:focus {
 
 #forth-row img {
   width: 100%;
-}
-
-#forth-row .card {
-  background-color: white;
-  border-color: white;
-}
-
-.donate-card {
-  border: white 1px solid;
 }
 
 #imgdiv {
@@ -324,7 +207,10 @@ a:focus {
   background-color: white;
 }
 
-/* Index - Events */
+#forth-row .card {
+  background-color: white;
+  border-color: white;
+}
 
 #fifth-row {
   padding: 20px 0 20px 0;
@@ -339,18 +225,13 @@ a:focus {
   padding: 20px 0 20px 0;
 }
 
-/* Index - Reviews */
+.carousel-control-prev, .carousel-control-next {
+  color: var(--primaryblue)!important;
+}
 
 #sixth-row {
   padding: 20px 0 30px 0;
 }
-
-#review-carousel {
-  font-size: 20px;
-  height: 300px
-}
-
-/* Index - Socials */
 
 #seventh-row {
   padding: 40px 0 40px 0;
@@ -360,6 +241,49 @@ a:focus {
 
 #seventh-row img {
   margin: 20px;
+}
+
+.btn-mumentum-primary {
+  margin-top: 20px;
+  color: #313131;
+  background-color: var(--primarypink);
+  padding: 5px 50px 5px 50px;
+  border: var(--primarypink) solid 2px;
+
+}
+
+.btn-mumentum-primary:hover {
+  margin-top: 20px;
+  color: var(--secondarypurple);
+  background-color: var(--primarypink);
+  padding: 5px 50px 5px 50px;
+  border: var(--secondarypurple) solid 2px;
+}
+
+.btn-mumentum-red {
+  margin-top: 20px;
+  color: var(--primarypink);
+  background-color: var(--primaryred);
+  padding: 5px 50px 5px 50px;
+  border: var(--primaryred) solid 2px;
+}
+
+.btn-mumentum-red:hover {
+  margin-top: 20px;
+  color: var(--primaryorange);
+  background-color: var(--primaryred);
+  padding: 5px 50px 5px 50px;
+  border: var(--primaryorange) solid 2px;
+}
+
+.learnmore {
+  color: var(--primaryorange);
+  text-decoration: none;
+}
+
+.learnmore:hover {
+  color: var(--primaryorange);
+  text-decoration: underline;
 }
 
 .social-icon {
@@ -390,19 +314,118 @@ a:focus {
           mask:url("/imgs/linkedin.png") center/contain;
 }
 
-/* About Us - Header Panel */
+button:focus,
+input:focus,
+a:focus {
+  border-color: rgba(126, 239, 104, 0)!important;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.075) inset, 0 0 0 rgba(126, 239, 104, 0.6)!important;
+  outline: 0 none!important;
+}
 
-#aboutus-header {
+#footer {
+  background-color: var(--primaryblue);
+  padding: 10px;
+  color: #313131;
+}
+
+.fa-right {
+  margin-right: 10px;
+}
+
+#footer span {
+  margin-right: 30px;
+}
+
+#footer a {
+  /* padding-right: 30px; */
+  color: #313131;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+  color: #313131;
+}
+
+#footer span a {
+  /* padding-right: 30px; */
+  color: #313131;
+  text-decoration: none;
+}
+
+#footer span a:hover {
+  text-decoration: underline;
+  color: #313131;
+}
+
+.donate-card {
+  border: white 1px solid;
+}
+
+#aboutusheading {
   padding-top: 30px;
   background-color: var(--primaryred);
 }
 
-#aboutus-container {
+#aboutusimg {
+  max-width: 100%;
+}
+
+#aboutmumentum {
+  margin-top: -30px;
+  background-color: var(--primarypink);
+  padding: 80px 30px 40px 30px;
+}
+
+#meetthemumscontainer {
+  padding: 30px;
+}
+
+#meetthemums {
+  max-width: 60%;
+  margin-top: -10px;
+}
+
+.meetthemumeverything {
+  background-image: url('/imgs/aboutbackground.png');
+  background-size:contain;
+}
+
+#meetthemumsrow .col-md-3 {
+  padding: 10px;
+  padding-bottom: 60px;
+}
+
+.accordion-button:not(.collapsed), .accordion-button {
+  color: #313131;
+  background-color: var(--primarypink);
+}
+
+.mumsofmumentum {
+  max-width: 100%;
+}
+
+.findoutmums {
+  padding-top: 15px;
+  color: var(--primaryorange);
+}
+
+#aboutmumentum p {
+  font-size: 20px;
+}
+
+.container-aboutus {
   position: relative;
+  max-height: 350px;
   text-align: center;
 }
 
-#about-us-centered {
+.newfont {
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-size: 32px;
+}
+
+.centered {
   position: absolute;
   font-size: 60px;
   color: #3f3d42;
@@ -420,79 +443,7 @@ a:focus {
   border-radius: 3px;
 }
 
-/* About Us - About Us Wording */
-
-#ourstory {
-  max-width: 80%;
-}
-
-#aboutuswoman {
-  padding-top: 40px;
-  max-width: 80%;
-  float: right;
-}
-
-#sidelady {
-  max-width: 50%;
-}
-
-#first-about-panel, #third-about-us {
-  padding-top: 30px;
-}
-
-#aboutmumentum {
-  background-image: url('/imgs/aboutpaintswish.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 95%;
-  background-color: var(--primarypink);
-}
-
-.aboutmumentum {
-  margin-top: -30px;
-  padding: 80px 30px 40px 30px;
-}
-
-.aboutmumentum p {
+#review-carousel {
   font-size: 20px;
-}
-
-.newfont {
-  font-family: 'Edu NSW ACT Foundation', cursive;
-  font-size: 32px;
-}
-
-/* About Us - Cards Accordian */
-
-.meetthemumeverything {
-  background-image: url('/imgs/aboutbackground.png');
-  background-size:contain;
-}
-
-#meetthemumscontainer {
-  padding: 30px;
-}
-
-#meetthemums {
-  max-width: 60%;
-  margin-top: -10px;
-}
-
-#meetthemumsrow .col-md-3 {
-  padding: 10px;
-  padding-bottom: 60px;
-}
-
-.mumsofmumentum {
-  max-width: 100%;
-}
-
-.findoutmums {
-  padding-top: 15px;
-  color: var(--primaryorange);
-}
-
-.accordion-button:not(.collapsed), .accordion-button {
-  color: #313131;
-  background-color: var(--primarypink);
+  height: 300px
 }

@@ -1,12 +1,15 @@
 <?php include("heading.inc"); ?>
 <div class="container-fluid">
   <div id="first-row" class="row">
-    <div id="container-aboutus" class="col-sm-12">
+    <div class="col-sm-12 container-aboutus">
       <img id="aboutusimg" src="/imgs/ladyheader.png" alt="">
-      <div id="centered">Relax, Recharge and Reconnect</div>
+      <div class="centered">Relax, Recharge and Reconnect</div>
     </div>
   </div>
   <div id="second-row" class="row text-center justify-content-center">
+    <div class="col-12">
+      <!-- <img id="second-img-top" src="imgs/sunrise.png" alt=""> -->
+    </div>
     <div class="col-sm-8">
       <h2>Because mums deserve a break! </h2>
       <p>Looking for a way to connect with other mums in York? Look no further than MUMentum! We're a group that's all about having fun - whether that means throwing axes, getting our fitness on, testing our knowledge at one of our quiz nights or diving into a good book at our book club. Come join in the fun and see what we're all about. </p>
@@ -19,7 +22,7 @@
         <div class="card-header">
           Past Events
         </div>
-        <div class="carousel slide" data-bs-ride="carousel">
+        <div id="past-events-carousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/imgs/events-carousel/pastevents1.jpeg" class="d-block w-100" alt="past event images">
@@ -107,9 +110,9 @@
           <div class="carousel-item active">
             <p><i class="fa-solid fa-quote-left"></i> When I had my son I felt so isolated from friends and family, which became even worse when we moved to York and I had to start looking for friends again this time as a first time mother. I found this group and went to the first event, I was so nervous but knew we were all in the same boat.  I ended up having a great night with all of these brilliant women. So I kept going to the events and tried new fun things and now I have a great group of friends who know exactly where I'm coming from when I've had a bad day with a toddler. Thanks so much Mumentum! <i class="fa-solid fa-quote-right"></i><br/><b>- Kirsty</b></p>
           </div>
-          <div class="carousel-item">
-            <p>Its been wonderful to be part of such a lovely group, ive made new friends, taken part in activities that i wouldnt normally do on my own, and been able to explore my hobbies and share them with like minded mums. Its been so valuable for me, i cant thank everyone enough for their continued hard work organising all the activities, thank you mumentum! <i class="fa-solid fa-quote-right"></i><br/><b>- Alida</b></p>
-          </div>
+          <!-- <div class="carousel-item">
+            <p>I love this group! Really fun events and I've met some lovely mums and made some great friends.</p>
+          </div> -->
           <div class="carousel-item">
             <p><i class="fa-solid fa-quote-left"></i> I became a member of MUMentum last year. I've been to a few events and they have all been fab and well planned. I have made some lovely friends who I see outside of events on a weekly basis for catch ups. I would highly recommend this to anyone with children looking to make friendships and have some mum time. I'm a single mum as well so have found it even more helpful. <i class="fa-solid fa-quote-right"></i><br/><b>- Philly</b></p>
           </div>
