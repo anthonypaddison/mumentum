@@ -1,0 +1,27 @@
+Primary colours:
+  pinkbutred: #cd8c90
+  blueifitweresad: #8da9b0
+  orangewhenitsill: #e4c39f
+  whitebutnotwhiteandwasprimary: #fcf1f3
+
+Secondary colours:
+  orangebrown: #b98d82
+  healthybowelmovement: #927668
+  darkestlightwood: #c8a98c
+  yellowwithacold: #e1d69c
+  sicklygreen: #aaa876
+  bluegreensad: #668a7c
+  purpleifitsawblue: #8e8cb1
+
+font: Cabin
+  Regular 400
+  Medium 500
+  Bold 700
+
+brand
+about us
+find out more about events
+donate
+instagram api
+contact us - email and details
+footer

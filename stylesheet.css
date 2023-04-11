@@ -1,0 +1,663 @@
+/* Generic */
+
+:root {
+  --primaryred: rgb(205, 140, 144);
+  --primaryblue: hwb(192 55% 31%);
+  --primaryorange: #e4c39f;
+  --primarypink: #fcf1f3;
+  --secondarybrown: #b98d82;
+  --secondarydarkbrown: #927668;
+  --secondaryorange: #c8a98c;
+  --secondaryyellow: #e1d69c;
+  --secondarydarkyellow: #aaa876;
+  --secondarygreen: #668a7c;
+  --secondarypurple: #8e8cb1;
+}
+
+html, body {
+  font-family: 'Cabin', sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: #313131;
+}
+
+p {
+  font-size: 20px;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+button:focus,
+input:focus,
+a:focus {
+  border-color: rgba(126, 239, 104, 0)!important;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.075) inset, 0 0 0 rgba(126, 239, 104, 0.6)!important;
+  outline: 0 none!important;
+}
+
+.fa-right {
+  margin-right: 10px;
+}
+
+/* Buttons */
+
+.btn-mumentum-red {
+  margin-top: 20px;
+  color: var(--primarypink);
+  background-color: var(--primaryred);
+  padding: 5px 50px 5px 50px;
+  border: var(--primaryred) solid 2px;
+}
+
+.btn-mumentum-red:hover {
+  margin-top: 20px;
+  color: var(--primaryorange);
+  background-color: var(--primaryred);
+  padding: 5px 50px 5px 50px;
+  border: var(--primaryorange) solid 2px;
+}
+
+/* Header */
+
+#logoImg {
+  max-width: 5%;
+  margin: 0 15px 0 10px;
+}
+
+.events-header p {
+  margin: 0;
+}
+
+.events-header p a {
+  color: white;
+  text-decoration: none;
+}
+
+.events-header p a:hover {
+  color: white;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgb(255, 255, 255) 2%, rgba(255, 255, 255, 0) 12%);
+}
+
+.events-header {
+  padding: 10px;
+  background-color: var(--primaryblue);
+  color: white;
+}
+
+#heading-nav {
+  background-color: var(--primaryred);
+  color: white;
+}
+
+#nav-container {
+  padding: 0 10px 0 10px;
+}
+
+.navbar-brand {
+  max-width: 50%;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.navbar-mumentum, .navbar-brand {
+  color: white1;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-mumentum:hover {
+  background: white;
+  background: linear-gradient(0deg, rgb(255, 255, 255) 8%, rgba(255, 255, 255, 0));
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item a:hover, .nav-item a:active, .nav-item a:focus {
+  background: white;
+  background: linear-gradient(0deg, rgb(255, 255, 255) 5%, rgba(255, 255, 255, 0) 16%);
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-item {
+  color: black!important;
+}
+
+.nav-item {
+  margin-right: 45px;
+}
+
+/* FOOTER */
+
+
+#footer {
+  background-color: var(--primaryblue);
+  padding: 10px;
+  color: white;
+}
+
+#footer span {
+  margin-right: 30px;
+}
+
+#footer a {
+  /* padding-right: 30px; */
+  color: white;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+#footer span a {
+  /* padding-right: 30px; */
+  color: white;
+  text-decoration: none;
+}
+
+#footer span a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+/* Index - header panel */
+
+#first-row {
+  padding: 30px 0 0 0;
+  background-color: var(--primaryred);
+}
+
+#container-aboutus {
+  position: relative;
+  text-align: center;
+}
+
+#aboutusimg {
+  max-width: 100%;
+}
+
+#centered {
+  position: absolute;
+  font-size: 60px;
+  color: #3f3d42;
+  background: rgba(252,241,243,0.5);
+  width: 100%;
+  height: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  display: flex;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  align-items:center;
+  justify-content:center;
+  border-radius: 3px;
+}
+
+#centeredsmall {
+  position: absolute;
+  font-size: 20px;
+  color: #3f3d42;
+  background: rgba(252,241,243,0.5);
+  width: 100%;
+  height: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  display: flex;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  align-items:center;
+  justify-content:center;
+  border-radius: 3px;
+}
+
+/* Index - Brief About */
+
+#second-row {
+  padding: 80px 0 50px 0;
+  background-color: var(--primarypink);
+}
+
+#second-row img {
+  max-width: 50%;
+}
+
+#second-row p {
+  font-size: 20px;
+}
+
+#second-row h2 {
+  font-size: 30px;
+}
+
+/* Index - Card Panel  */
+
+#third-row {
+  padding: 30px 0 30px 0;
+}
+
+.third-footer p {
+  color: black;
+}
+
+.learnmore {
+  color: white;
+  text-decoration: underline;
+}
+
+.learnmore:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#calendar-card {
+  max-width: 100%;
+}
+
+#second-card {
+  height: 100%;
+}
+
+.card {
+  border-color: var(--secondarybrown);
+}
+
+.card, .card-header {
+  border-top-left-radius: 45px!important;
+  border-top-right-radius: 45px!important;
+}
+
+.card, .card-footer {
+  border-bottom-left-radius: 45px!important;
+  border-bottom-right-radius: 45px!important;
+}
+
+.card-header {
+  background-color: transparent;
+  padding: 20px 0 40px 0;
+  border-color: var(--secondarybrown);
+  border-bottom: 0px;
+}
+
+#third-row .carousel, #third-row .slide,
+#third-row .carousel .carousel-inner,
+#third-row .carousel .carousel-item,
+#third-row .carousel .carousel-item img,
+#third-row .carousel .carousel-control {
+  border-top-left-radius: 45px!important;
+  border-top-right-radius: 45px!important;
+  overflow: hidden;
+}
+
+.card-footer {
+  margin-top: -40px;
+  padding-top:40px;
+  border-top: none;
+  z-index: 10;
+  background: var(--primaryblue);
+  background: linear-gradient(0deg, rgba(141, 169, 176,1) 90%, rgba(141, 169, 176,0) 100%);
+  color: black!important;
+}
+
+.carousel, #first-card {
+  padding: 0px;
+}
+
+/* Index - Donate */
+
+#forth-row {
+  padding: 20px 0 20px 0;
+  background-color: var(--primaryred);
+}
+
+#forth-row img {
+  max-width: 100%;
+}
+
+#forth-row .card {
+  background-color: var(--primarypink);
+  border-color: var(--primarypink);
+}
+
+.donate-card {
+  border: var(--primarypink) 1px solid;
+}
+
+#imgdiv {
+  display: inline-block;
+  width: 10%;
+  padding:15px 15px 0 15px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: var(--primarypink);
+}
+/* Index - Events */
+
+#fifth-row {
+  padding: 20px 0 20px 0;
+  background-color: white;
+}
+
+#fifth-row img {
+  width: 30%;
+}
+
+#fifth-row-p-container {
+  padding: 20px 0 20px 0;
+}
+
+/* Index - Reviews */
+
+#sixth-row {
+  padding: 20px 0 30px 0;
+}
+
+#review-carousel {
+  font-size: 20px;
+  height: 300px
+}
+
+@media (max-width: 767.98px) {
+  #review-carousel {
+    font-size: 20px;
+    height: 400px
+  }
+}
+
+/* Index - Socials */
+
+#seventh-row {
+  padding: 40px 0 40px 0;
+  background-color: var(--primaryblue);
+  color: var(--primarypink);
+}
+
+#seventh-row img {
+  margin: 20px;
+}
+
+.social-icon {
+  width: 75px;
+  height: 75px;
+  background: white;
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+
+.facebook {
+  -webkit-mask:url("/imgs/facebook.png") center/contain;
+          mask:url("/imgs/facebook.png") center/contain;
+}
+
+.meetup {
+  -webkit-mask:url("/imgs/meetup.png") center/contain;
+          mask:url("/imgs/meetup.png") center/contain;
+}
+
+.instagram {
+  -webkit-mask:url("/imgs/instagram.png") center/contain;
+          mask:url("/imgs/instagram.png") center/contain;
+}
+
+.linkedin {
+  -webkit-mask:url("/imgs/linkedin.png") center/contain;
+          mask:url("/imgs/linkedin.png") center/contain;
+}
+
+/* About Us - Header Panel */
+
+#aboutus-header {
+  padding-top: 30px;
+  background-color: var(--primaryred);
+}
+
+#aboutus-container {
+  position: relative;
+  text-align: center;
+}
+
+#about-us-centered {
+  position: absolute;
+  font-size: 60px;
+  color: #3f3d42;
+  background: rgba(252,241,243,0.5);
+  width: 100%;
+  height: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  display: flex;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  align-items:center;
+  justify-content:center;
+  border-radius: 3px;
+}
+
+/* About Us - About Us Wording */
+
+#aboutuswoman {
+  padding-top: 40px;
+  max-width: 20%;
+  float: right!important;
+}
+
+#aboutusbutton {
+  margin: 20px;
+}
+
+#first-about-panel, #third-about-us {
+  padding-top: 30px;
+}
+
+#buttondivabout {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: right;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#aboutmumentum {
+  background-image: url('/imgs/aboutusbackgroundv3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-color: var(--primarypink);
+}
+
+.aboutmumentum {
+  margin-top: -30px;
+  padding: 80px 30px 40px 30px;
+}
+
+.aboutmumentum p {
+  font-size: 20px;
+}
+
+.newfont {
+  /* font-family: 'Edu NSW ACT Foundation', cursive; */
+  font-size: 32px;
+}
+
+/* About Us - Cards Accordian */
+
+.meetthemumeverything {
+  background-image: url('/imgs/aboutbackground.png');
+  background-size:contain;
+}
+
+#meetthemumscontainer {
+  padding: 30px;
+}
+
+#meetthemums {
+  max-width: 60%;
+  margin-top: -10px;
+}
+
+#meetthemumsrow .col-md-3 {
+  padding: 10px;
+  padding-bottom: 60px;
+}
+
+.mumsofmumentum {
+  max-width: 100%;
+}
+
+.findoutmums {
+  padding-top: 15px;
+  color: var(--primaryorange);
+}
+
+.accordion-button:not(.collapsed), .accordion-button {
+  color: #313131;
+  background-color: var(--primarypink);
+}
+
+/* Meet OUR team */
+
+#meettheteam {
+  background-color: var(--primarypink);
+}
+
+#joyrow {
+  margin-top: 50px;
+}
+
+#joypng img {
+  max-width: 100%;
+}
+
+#joypng {
+  margin-right: -100px;
+  z-index: 1;
+}
+
+#joywording {
+  padding: 40px;
+  padding-left: 110px;
+  background-color: rgba(205, 140, 144, 0.72);
+  border-radius: 45px;
+}
+
+#lollyrow {
+  margin-top: 50px;
+}
+
+#lollypng img {
+  max-width: 100%;
+}
+
+#lollypng {
+  margin-left: -100px;
+  z-index: 1;
+}
+
+#lollywording {
+  padding: 40px;
+  padding-right: 110px;
+  background-color: rgba(205, 140, 144, 0.72);
+  border-radius: 45px;
+}
+
+#laurenrow {
+  margin-top: 50px;
+}
+
+#laurenpng img {
+  max-width: 100%;
+}
+
+#laurenpng {
+  margin-right: -100px;
+  z-index: 1;
+}
+
+#laurenwording {
+  padding: 40px;
+  padding-left: 110px;
+  background-color: rgba(205, 140, 144, 0.72);
+  border-radius: 45px;
+}
+
+#laurarow {
+  margin-top: 50px;
+  padding-bottom: 80px;
+}
+
+#laurapng img {
+  max-width: 100%;
+}
+
+#laurapng {
+  margin-left: -100px;
+  z-index: 1;
+}
+
+#laurawording {
+  padding: 40px;
+  padding-right: 110px;
+  background-color: rgba(205, 140, 144, 0.72);
+  border-radius: 45px;
+}
+
+@media (max-width: 767.98px) {
+
+  #joypng {
+    margin-right: 0px;
+  }
+
+  #laurenpng {
+    margin-right: 0px;
+  }
+
+  #lollypng {
+    margin-left: 0px;
+  }
+
+  #laurapng {
+    margin-left: 0px;
+  }
+
+  #laurawording {
+    padding-right: 0px;
+  }
+
+  #joywording {
+    padding-left: 0px;
+  }
+
+  #laurenwording {
+    padding-left: 0px;
+  }
+
+  #lollywording {
+    padding-right: 0px;
+  }
+}

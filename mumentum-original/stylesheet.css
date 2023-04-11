@@ -1,0 +1,449 @@
+/* :root {
+  --primaryred: #cd8c90;
+  --primaryblue: #8da9b0;
+  --primaryorange: #e4c39f;
+  --primarypink: #fcf1f3;
+  --secondarybrown: #b98d82;
+  --secondarydarkbrown: #927668;
+  --secondaryorange: #c8a98c;
+  --secondaryyellow: #e1d69c;
+  --secondarydarkyellow: #aaa876;
+  --secondarygreen: #668a7c;
+  --secondarypurple: #8e8cb1;
+}
+
+html, body {
+  font-family: 'Cabin', sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: #313131;
+}
+
+p {
+  font-size: 20px;
+} */
+
+.third-footer p {
+  color: white;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+#logoImg {
+  max-width: 5%;
+  margin: 0 15px 0 10px;
+}
+
+.events-header p {
+  margin: 0;
+}
+
+.events-header p a {
+  color: white;
+  text-decoration: none;
+}
+
+.events-header p a:hover {
+  color: white;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgb(255, 255, 255) 2%, rgba(255, 255, 255, 0) 12%);
+}
+
+.events-header {
+  padding: 10px;
+  background-color: var(--primaryblue);
+  color: white;
+}
+
+#heading-nav {
+  background-color: var(--primarypink);
+  color: #313131;
+}
+
+#nav-container {
+  padding: 0 10px 0 10px;
+}
+
+.navbar-brand {
+  max-width: 50%;
+  font-size: 1.5rem;
+}
+
+.navbar-mumentum, .navbar-brand {
+  color: #313131;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: #313131;
+  text-decoration: none;
+}
+
+.navbar-mumentum:hover {
+  background: #313131;
+  background: linear-gradient(0deg, rgb(49, 50, 50) 8%, rgbargba(46, 46, 46, 0));
+  color: var(--primaryblue);
+  text-decoration: none;
+}
+
+.nav-item a {
+  color: #313131;
+  text-decoration: none;
+}
+
+.nav-item a:hover, .nav-item a:active, .nav-item a:focus {
+  background: #313131;
+  background: linear-gradient(0deg, rgb(42, 42, 43) 5%, rgba(50, 51, 51, 0) 16%);
+  color: #313131;
+  text-decoration: none;
+}
+
+
+/* TODO do heading nav here */
+
+#first-row {
+  padding: 30px 0 0 0;
+  background-color: var(--primaryred);
+}
+
+#first-img-left {
+  max-width: 100%
+}
+
+#first-column-right {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 20px 0 20px 0;
+}
+
+#second-img-top {
+  width: 10%
+}
+
+#second-row {
+  /* margin-top: -40px; */
+  padding: 80px 0 50px 0;
+  background-color: var(--primarypink);
+}
+
+#second-row p {
+  font-size: 20px;
+}
+
+#second-row h2 {
+  /* font-family: 'Edu NSW ACT Foundation', cursive; */
+  font-size: 30px;
+}
+
+#third-row {
+  padding: 30px 0 30px 0;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.card {
+  border-color: var(--secondarybrown);
+}
+
+.card, .card-header {
+  border-top-left-radius: 25px!important;
+  border-top-right-radius: 25px!important;
+}
+
+.card, .card-footer {
+  border-bottom-left-radius: 25px!important;
+  border-bottom-right-radius: 25px!important;
+}
+
+.card-header {
+  background-color: var(--secondarybrown);
+  color: var(--primarypink);
+  padding: 20px 0 20px 0;
+  border-color: var(--secondarybrown);
+}
+
+.card-footer {
+  margin-top: -40px;
+  padding-top:40px;
+  border-top: none;
+  z-index: 10;
+  background: rgb(185,141,130);
+  background: linear-gradient(0deg, rgba(185,141,130,1) 70%, rgba(185,141,130,0) 100%);
+  color: var(--primarypink)!important;
+}
+
+#calendar-card {
+  width: 100%;
+}
+
+#second-card {
+  height: 100%;
+}
+
+#forth-row {
+  padding: 20px 0 20px 0;
+  background-color: var(--primarypink);
+}
+
+#forth-row img {
+  width: 100%;
+}
+
+#imgdiv {
+  display: inline-block;
+  width: 10%;
+  padding:15px 15px 0 15px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: white;
+}
+
+#forth-row .card {
+  background-color: white;
+  border-color: white;
+}
+
+#fifth-row {
+  padding: 20px 0 20px 0;
+  background-color: white;
+}
+
+#fifth-row img {
+  width: 30%;
+}
+
+#fifth-row-p-container {
+  padding: 20px 0 20px 0;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  color: var(--primaryblue)!important;
+}
+
+#sixth-row {
+  padding: 20px 0 30px 0;
+}
+
+#seventh-row {
+  padding: 40px 0 40px 0;
+  background-color: var(--primaryblue);
+  color: var(--primarypink);
+}
+
+#seventh-row img {
+  margin: 20px;
+}
+
+.btn-mumentum-primary {
+  margin-top: 20px;
+  color: #313131;
+  background-color: var(--primarypink);
+  padding: 5px 50px 5px 50px;
+  border: var(--primarypink) solid 2px;
+
+}
+
+.btn-mumentum-primary:hover {
+  margin-top: 20px;
+  color: var(--secondarypurple);
+  background-color: var(--primarypink);
+  padding: 5px 50px 5px 50px;
+  border: var(--secondarypurple) solid 2px;
+}
+
+.btn-mumentum-red {
+  margin-top: 20px;
+  color: var(--primarypink);
+  background-color: var(--primaryred);
+  padding: 5px 50px 5px 50px;
+  border: var(--primaryred) solid 2px;
+}
+
+.btn-mumentum-red:hover {
+  margin-top: 20px;
+  color: var(--primaryorange);
+  background-color: var(--primaryred);
+  padding: 5px 50px 5px 50px;
+  border: var(--primaryorange) solid 2px;
+}
+
+.learnmore {
+  color: var(--primaryorange);
+  text-decoration: none;
+}
+
+.learnmore:hover {
+  color: var(--primaryorange);
+  text-decoration: underline;
+}
+
+.social-icon {
+  width: 75px;
+  height: 75px;
+  background: #313131;
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+
+.facebook {
+  -webkit-mask:url("/imgs/facebook.png") center/contain;
+          mask:url("/imgs/facebook.png") center/contain;
+}
+
+.meetup {
+  -webkit-mask:url("/imgs/meetup.png") center/contain;
+          mask:url("/imgs/meetup.png") center/contain;
+}
+
+.instagram {
+  -webkit-mask:url("/imgs/instagram.png") center/contain;
+          mask:url("/imgs/instagram.png") center/contain;
+}
+
+.linkedin {
+  -webkit-mask:url("/imgs/linkedin.png") center/contain;
+          mask:url("/imgs/linkedin.png") center/contain;
+}
+
+button:focus,
+input:focus,
+a:focus {
+  border-color: rgba(126, 239, 104, 0)!important;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.075) inset, 0 0 0 rgba(126, 239, 104, 0.6)!important;
+  outline: 0 none!important;
+}
+
+#footer {
+  background-color: var(--primaryblue);
+  padding: 10px;
+  color: #313131;
+}
+
+.fa-right {
+  margin-right: 10px;
+}
+
+#footer span {
+  margin-right: 30px;
+}
+
+#footer a {
+  /* padding-right: 30px; */
+  color: #313131;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+  color: #313131;
+}
+
+#footer span a {
+  /* padding-right: 30px; */
+  color: #313131;
+  text-decoration: none;
+}
+
+#footer span a:hover {
+  text-decoration: underline;
+  color: #313131;
+}
+
+.donate-card {
+  border: white 1px solid;
+}
+
+#aboutusheading {
+  padding-top: 30px;
+  background-color: var(--primaryred);
+}
+
+#aboutusimg {
+  max-width: 100%;
+}
+
+#aboutmumentum {
+  margin-top: -30px;
+  background-color: var(--primarypink);
+  padding: 80px 30px 40px 30px;
+}
+
+#meetthemumscontainer {
+  padding: 30px;
+}
+
+#meetthemums {
+  max-width: 60%;
+  margin-top: -10px;
+}
+
+.meetthemumeverything {
+  background-image: url('/imgs/aboutbackground.png');
+  background-size:contain;
+}
+
+#meetthemumsrow .col-md-3 {
+  padding: 10px;
+  padding-bottom: 60px;
+}
+
+.accordion-button:not(.collapsed), .accordion-button {
+  color: #313131;
+  background-color: var(--primarypink);
+}
+
+.mumsofmumentum {
+  max-width: 100%;
+}
+
+.findoutmums {
+  padding-top: 15px;
+  color: var(--primaryorange);
+}
+
+#aboutmumentum p {
+  font-size: 20px;
+}
+
+.container-aboutus {
+  position: relative;
+  max-height: 350px;
+  text-align: center;
+}
+
+.newfont {
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-size: 32px;
+}
+
+.centered {
+  position: absolute;
+  font-size: 60px;
+  color: #3f3d42;
+  background: rgba(252,241,243,0.5);
+  width: 100%;
+  height: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  display: flex;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  align-items:center;
+  justify-content:center;
+  border-radius: 3px;
+}
+
+#review-carousel {
+  font-size: 20px;
+  height: 300px
+}
